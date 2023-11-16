@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 3px solid rgb(150,00,225);
+}
+
+header h1{
+  font-size: 2em;
+}
+header nav ul li {
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
+
+#project.container, #aboutme {
+  margin: 0 auto
+  width: 90%;
+  max-width: 60px;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(150,00,225);
+}
+.project img, #aboutme img {
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.project h2, #aboutme h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
